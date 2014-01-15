@@ -1,0 +1,38 @@
+/* Created by TopStyle Trial - www.topstyle4.com */
+table {
+	border: 1px solid #000;
+	font-family: Verdana, tehoma, sans-serif;
+	box-shadow: 0 0 4px #333;
+}
+
+thead{
+	background-color: #ddd; 
+	text-shadow: #fff 1px 3px 1px;
+}
+
+tr {
+	background-color:#61d7a4;
+}
+
+tr:active {
+	background-color:#000;
+}
+
+tr:hover {
+	background-color: #fff;
+}
+
+tr {
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;	
+}
+
+.sum td {
+	border-top: 1px solid #000;
+	font-weight: bold;
+	box-shadow: 0 0 4px #333;
+}
+
